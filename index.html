@@ -4,7 +4,7 @@
   <title>Carlie Procell</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="icon" type="image/png" href="me.png" />
 </head>
@@ -12,7 +12,7 @@
   <h1><a href="index.html">Carlie Procell</a></h1>
   <p class="nav">
     <!-- <a href="projects.html">projects</a> | -->
-    <a href="resume2018.pdf" target="_blank">resume</a> |
+    <a href="resume2019.pdf" target="_blank">resume</a> |
     <a href="https://www.github.com/qbscarlie" target="_blank">github</a> |
     <a href="https://www.twitter.com/carlieprocell" target="_blank">twitter</a> |
     <a href="otherclips.html">other clips</a>
@@ -20,55 +20,249 @@
   <br />
   <br />
   <div id="content">
-    <p>I'm Carlie and I graduated this May from Mizzou with a degree in data journalism. I'm currently working as a <a href="https://www.civilbeat.org/author/carlieprocell/" target="_blank">data fellow at Civil Beat</a> in Honolulu, but I've previously worked at <a href="https://www.dallasnews.com/" target="_blank">The Dallas Morning News</a>, <a href="https://ire.org/" target="_blank">Investigative Reporters & Editors</a>, <a href="https://www.columbiamissourian.com/" target="_blank">The Columbia Missourian</a> and <a href="https://www.shreveporttimes.com/" target="_blank">The Shreveport Times</a>.</p>
+    <p>I'm Carlie and I currently work as a <a href="https://www.civilbeat.org/author/carlieprocell/" target="_blank">data fellow at Civil Beat</a> in Honolulu, but I've previously worked at <a href="https://www.dallasnews.com/" target="_blank">The Dallas Morning News</a>, <a href="https://ire.org/" target="_blank">Investigative Reporters & Editors</a>, <a href="https://www.columbiamissourian.com/" target="_blank">The Columbia Missourian</a> and <a href="https://www.shreveporttimes.com/" target="_blank">The Shreveport Times</a>.</p>
     <br />
-    <p>Whether it’s writing scrapers, analyzing data, designing graphics or developing apps - I want to combine journalism and technology to tell stories in innovative, captivating and impactful ways.</p>
+    <p>Whether it’s making maps, analyzing data, designing graphics or developing apps - I want to combine journalism and technology to tell stories in innovative, captivating and impactful ways.</p>
     <br />
     <p>My biggest goal is not just to inform, but to encourage the public to want to stay informed. I also enjoy improving newsroom technologies to make it as easy as possible for journalists to do their job.</p>
     <br />
-    <p>Below are some projects I've developed and designed with code over the past few years. Visit my <a href="https://qbscarlie.github.io/otherclips.html" target="_blank">other clips page</a> to see examples of my reporting, design and video experience.</p><br />
+    <p>Below are some of my favorite projects I've developed and designed over the past few years. Visit my <a href="https://qbscarlie.github.io/otherclips.html" target="_blank">other clips page</a> to see examples of my reporting, design and video experience.</p><br />
 
-    <h3>Reynolds Journalism Institute</h3>
-    <h5>RJI Alexa Skill (<a href="https://github.com/jasminehl/alexaskills" target="_blank">source code</a>)</h5>
-    <p class="projtext">I spent the Fall 2017 semester working as the developer alongside two journalism students for an Alexa Skill for the Reynolds Journalism Institute. Our skill scrapes articles from their <a href="https://www.rjionline.org/rss" target="_blank">RSS feed</a> based on tags said by the user. I wrote the skill itself in Node.js and implemented it with a Lambda function, and I wrote the <a href="https://github.com/qbscarlie/rji_scraper" target="_blank">scraper</a> in Python. The scraper stores the data in a DynamoDB table which updates via an additional Lambda function. I created a how-to guide on how to do the skill <a href="https://www.dropbox.com/s/4ps9nj1vcodelpf/HowToAlexa.pdf?dl=0" target="_blank">here</a>.</p>
-    <br />
-    <h3>The Dallas Morning News</h3>
-    <h5>Restaurant Inspections (<a href="https://github.com/DallasMorningNews/restaurant-inspections-demo" target="_blank">source code</a>)</h5>
-    <p class="projtext">I helped develop a <a href="http://restaurantinspections.dallasnews.com/" target="_blank">Django app</a> from back-end to front-end that tracks restaurant health inspections across Dallas and Tarrant counties. I wrote several Python scrapers to scrape the data and store the data in a PostgreSQL database. <a href="https://www.guidelive.com/food-and-drink/2018/04/27/search-restaurant-inspections-health-dallas-fort-worth-cities-cleanliness" target="_blank">Here's an article</a> explaining how it works and why we made it.</p>
-    <br />
-    <h5>Maps (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/maps" target="_blank">source code</a>)</h5>
-    <p class="projtext">I made several maps with Mapbox and a script that connects Google Sheets to an Amazon S3 bucket so the reporter could edit the data. My favorite is <a href="http://interactives.dallasnews.com/embeds/2017/skyline-map/" target="_blank">this one</a> that shows the history of skyscrapers in downtown Dallas.</p>
-    <br />
-    <h5>Divine Nine embeddable (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/divine-nine-embed" target="_blank">source code</a>)</h5>
-    <p class="projtext">For <a href="https://www.dallasnews.com/life/life/2017/06/08/long-college-divine-nine-fraternities-sororities-lifeline-black-members" target="_blank">a story</a> about the Dallas Divine Nine, I worked with a reporter to develop an embeddable that showed facts about each chapter.</p>
-    <br />
-    <h5>Book slider (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/book-slider" target="_blank">source code</a>)</h5>
-    <p class="projtext">I teamed up with another intern to develop <a href="https://www.dallasnews.com/news/education/2017/07/11/high-school-flashback-can-name-summers-reading-assignments-just-books-plots" target="_blank">this project</a> that tests reader's knowledge of summer reading books that North Texas schools were assigning. I used a jQuery plugin to make a series of image sliders where the top image was a synopsis of the book and the image underneath revealed the book cover, title and author.</p>
+    <h3>Honolulu Civil Beat</h3>
+    <p class="projtext">I joined Honolulu Civil Beat in December 2018 for a yearlong data fellowship to enhance investigative news stories with more data, maps and graphics. I worked with reporters to gather, analyze and visualize data for their stories and contributed to about 75 stories, including a few I took the lead on. I also worked on the multimedia team to help perfect web presentations for special projects. Below are some of my favorite graphics: </p>
+    <br>
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.civilbeat.org/2019/01/hawaii-2040-climate-change-is-already-here-and-were-running-out-of-time/" target="_blank"><img src="clipz/cb_2040.gif"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/01/hawaii-2040-climate-change-is-already-here-and-were-running-out-of-time/" target="_blank">Economic Effects of Sea Level Rise</a></p>
+        <p class="cliptext">To make this gif, I used QGIS to edit the geographic data, then Illustrator and Photoshop to add details and animate it. I also made similar gifs for other stories in <a href="https://www.civilbeat.org/hawaii-2040/" target="_blank">the Hawaii 2040 series</a> like <a href="clipz/cb_slr.gif" target="_blank">this one</a>.</p>
+      </div>
+
+      <div class="clip2">
+        <a href="https://www.civilbeat.org/2019/09/hawaii-students-feel-safer-at-school-but-not-everywhere/" target="_blank"><img src="clipz/cb_safety.png"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/09/hawaii-students-feel-safer-at-school-but-not-everywhere/" target="_blank">Public School Safety Ratings</a></p>
+        <p class="cliptext">I made this interactive Tableau dashboard to display survey responses from students in public high school on how safe they felt in their schools.</p>
+      </div>
+
+      <div class="clip3">
+        <a href="https://www.civilbeat.org/2019/02/10-charts-that-show-the-struggle-of-being-a-millennial-in-hawaii/" target="_blank"><img src="clipz/cb_millennials.gif"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/02/10-charts-that-show-the-struggle-of-being-a-millennial-in-hawaii/" target="_blank">10 Charts That Show The Struggle Of Being A Millennial In Hawaii</a></p>
+        <p class="cliptext">I helped come up with this story and gathered all the data for it using Census microdata (via <a href="https://ipums.org/" target="_blank">IPUMS</a>), then I created all the graphics in Illustrator while a reporter helped write the text.</p>
+      </div>
+
+      <div class="clip4">
+        <a href="" target="_blank"><img src="clipz/cb_swac.gif"></a>
+        <p class="cliptitle"><a href="" target="_blank">How Seawater Air Conditioning Works</a></p>
+        <p class="cliptext">I made this graphic to explain how seawater air conditioning works in Illustrator, and animated it in AfterEffects. I also made a print version that was published in the September 2019 cover issue of The Christian Science Monitor.</p>
+      </div>
+
+      <div class="clip5">
+        <a href="https://www.civilbeat.org/2019/04/hawaiis-population-decline-signals-future-economic-challenges/" target="_blank"><img src="clipz/cb_pop.gif"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/04/hawaiis-population-decline-signals-future-economic-challenges/" target="_blank">Hawaii's Changing Demographics</a></p>
+        <p class="cliptext">I created a population pyramid (without gender) using Census data to spotlight how Hawaii's population has changed over years in amount and age.</p>
+      </div>
+
+      <div class="clip6">
+        <a href="https://www.civilbeat.org/2019/05/where-hawaiis-chronic-teacher-shortage-hits-hardest/" target="_blank"><img src="clipz/cb_tableau.png"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/05/where-hawaiis-chronic-teacher-shortage-hits-hardest/" target="_blank">Hawaii's Chronic Teacher Shortage</a></p>
+        <p class="cliptext">I worked with a remote freelancer to develop some Tableau dashboards that show data about teacher shortages in Hawaii. I gathered the data and then edited his work so it would be responsive on our website.</p>
+      </div>
+
+      <div class="clip7">
+        <a href="https://www.civilbeat.org/beat/heres-how-sea-level-rise-could-transform-hawaii/" target="_blank"><img src="clipz/cb_slr6.png"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/beat/heres-how-sea-level-rise-could-transform-hawaii/" target="_blank">Here's How Sea Level Rise Could Transform Hawaii</a></p>
+        <p class="cliptext">I used data from NOAA to create an interactive map to show how six feet of sea level rise would affect the state.</p>
+      </div>
+
+      <div class="clip8">
+        <a href="https://www.civilbeat.org/2019/04/where-hawaii-renters-spend-half-their-incomes-on-housing/" target="_blank"><img src="clipz/cb_rent.png"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/04/where-hawaii-renters-spend-half-their-incomes-on-housing/" target="_blank">Where Hawaii Renters Spend Half Their Incomes On Housing</a></p>
+        <p class="cliptext">I used Census data to create an interactive map in ArcGIS Online that shows the percent of income renters spend on housing, then I pulled out different areas of the island to spotlight and worked with a reporter to write about our findings.</p>
+      </div>
+
+      <div class="clip9">
+        <a href="https://www.civilbeat.org/2019/07/9-charts-that-show-how-hawaii-tourism-is-changing/" target="_blank"><img src="clipz/cb_tourism.gif"></a>
+        <p class="cliptitle"><a href="https://www.civilbeat.org/2019/07/9-charts-that-show-how-hawaii-tourism-is-changing/" target="_blank">9 Charts That Show How Hawaii Tourism Is Changing</a></p>
+        <p class="cliptext">This charticle shows data behind how tourism has changed over time in Hawaii. I helped interview and report this story along with gathering all the data for it and visualizing it in Datawrapper, ArcGIS Online and Illustrator.</p>
+      </div>
+    </div>
+    <br>
 
     <h3>The Columbia Missourian</h3>
-    <h5>2016 election map (<a href="https://github.com/qbscarlie/2016-Election-Map" target="_blank">source code</a>)</h5>
-    <p class="projtext">For this map, I worked on a team to build a map of Missouri that displayed results from the U.S. presidential and senate races as they came in. I built the map with TopoJSON files and used D3 and Underscore.js to connect the data to it.</p>
+    <p class="projtext">I spent two semesters at The Columbia Missourian as graphics editor where I directed and assisted a team of students from the journalism school's Information Graphics class in producing <a href="https://twitter.com/CarlieProcell/status/1041300904199290880" target="_blank">award-winning</a> infographics for print and web publication. Between the two classes (one from each semester), we produced about 300 graphics. Click <a href="https://www.columbiamissourian.com/search/?f=html&q=tag_section%3Avisuals%2Fgraphics&d1=2017-08-01&d2=2018-05-13&s=start_time&sd=desc&l=10&nsa=eedition" target="_blank">here</a> to see all the graphics I edited, and below are a few of my favorites: </p>
+    <br>
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.columbiamissourian.com/visuals/gov-greitens-awaits-trial-in-invasion-of-privacy-investigation/image_703663ae-3de8-11e8-ab18-67cf87621f8f.html" target="_blank"><img src="otherimgs/greitens.png"></a>
+      </div>
+
+      <div class="clip2">
+        <a href="https://www.columbiamissourian.com/visuals/roots-n-blues-n-bbq-festival-attendees-over-the-years/image_2bb65a5c-a551-11e7-8d4e-ff24b66b6b44.html" target="_blank"><img src="otherimgs/linegraph.png"></a>
+      </div>
+
+      <div class="clip3">
+        <a href="https://www.columbiamissourian.com/visuals/graphics/missouri-complies-with-real-id-act-years-later/image_279ed7a2-c4cb-11e7-9f05-479c48875fe6.html" target="_blank"><img src="otherimgs/realid.png"></a>
+      </div>
+
+      <div class="clip4">
+        <a href="https://www.columbiamissourian.com/visuals/graphics/types-of-medication-used-to-treat-opioid-disorder/image_bee65a60-4999-11e8-8ed8-53b812b03650.html" target="_blank"><img src="otherimgs/opioid.png"></a>
+      </div>
+
+      <div class="clip5">
+        <a href="https://www.columbiamissourian.com/visuals/graphics/top-five-snowiest-years-in-columbia/image_c1b74984-baa6-11e7-a118-c7e7ce1a2b1d.html" target="_blank"><img src="otherimgs/snowfall.png"></a>
+      </div>
+
+      <div class="clip6">
+        <a href="https://www.columbiamissourian.com/visuals/the-quadruple-jump-the-mvp-of-male-figure-skating/image_39783984-135c-11e8-83d4-6b72bf8b0ec3.html" target="_blank"><img src="otherimgs/skating.png"></a>
+      </div>
+
+      <div class="clip7">
+        <a href="https://www.columbiamissourian.com/visuals/generating-power-in-a-direct-current-motor/image_9fa1cb40-c022-11e7-85ac-d3ba12fd44f7.html" target="_blank"><img src="otherimgs/engine.png"></a>
+      </div>
+
+      <div class="clip8">
+        <a href="https://www.columbiamissourian.com/visuals/graphics/hpv-statistics/image_f322770c-c01c-11e7-9ad1-6711036b0f37.html" target="_blank"><img src="otherimgs/hpv.png"></a>
+      </div>
+
+      <div class="clip9">
+        <a href="https://www.columbiamissourian.com/visuals/buyer-beware-apartment-costs-and-amenities/html_1cbfa37e-dac5-11e7-8ba4-27d5fa8d8b6e.html" target="_blank"><img src="otherimgs/col.png"></a>
+      </div>
+    </div>
+    <br>
+
+    <p class="projtext">And here are some bigger/longer projects that I worked as a graphics editor on:</p><br>
+
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.columbiamissourian.com/news/state_news/following-missouri-s-higher-education-bill/article_2a59c10a-18c2-11e8-b9eb-ab2dd00ed4a1.html" target="_blank"><img src="clipz/missourian4.png"></a>
+        <p class="cliptitle"><a href="https://www.columbiamissourian.com/news/state_news/following-missouri-s-higher-education-bill/article_2a59c10a-18c2-11e8-b9eb-ab2dd00ed4a1.html" target="_blank">A Long Path To Law</a></p>
+        <p class="cliptext">This semester-long series followed a bill through the legislature to explain how bills are passed in the state, and we created several graphics for it such as the logo above and this <a href="otherimgs/artofbill.png" target="_blank">full page graphic</a>.</p>
+      </div>
+
+      <div class="clip2">
+        <a href="https://www.columbiamissourian.com/news/state_news/lack-of-broadband-puts-missouri-behind/article_097fc1cc-efe2-11e7-99b2-273eaf367ba9.html" target="_blank"><img src="clipz/missourian5.png"></a>
+        <p class="cliptitle"><a href="https://www.columbiamissourian.com/news/state_news/lack-of-broadband-puts-missouri-behind/article_097fc1cc-efe2-11e7-99b2-273eaf367ba9.html" target="_blank">Disconnected</a></p>
+        <p class="cliptext">This semester-long series that looked at broadband access across rural Missouri, and we did several graphics for this as well such as the <a href="otherimgs/discon_logo.png" target="_blank">series logo</a>, <a href="otherimgs/discon_map.png" target="_blank">multiple</a> <a href="otherimgs/discon_map2.png" target="_blank">maps</a> and <a href="otherimgs/discon_exp.png" target="_blank">graphic explainers.</a></p>
+      </div>
+
+      <div class="clip3">
+        <a href="https://www.bluetoad.com/publication/?i=445202&view=advertisersBrowser#{%22issue_id%22:%22445202%22,%22page%22:0}" target="_blank"><img src="clipz/missourian6.png"></a>
+        <p class="cliptitle"><a href="https://www.bluetoad.com/publication/?i=445202&view=advertisersBrowser#{%22issue_id%22:%22445202%22,%22page%22:0}" target="_blank">Homecoming Magazine Insert</a></p>
+        <p class="cliptext">For the Homecoming magazine insert, I created a new style guide to match the magazine and worked with my designers to conceptualize about a dozen festive print graphics about topics like <a href="otherimgs/hoco_stats.png" target="_blank">football stats</a>, <a href="otherimgs/hoco_route.png" target="_blank">the parade route</a>, <a href="otherimgs/hoco_games.png" target="_blank">tailgate games</a> and <a href="otherimgs/hoco_locator.png" target="_blank">locator maps.</a></p>
+      </div>
+    </div>
+
+    <p class="projtext">Also at the Missourian, I worked one semester as a staff graphic designer and two semesters as an education reporter where I focused on data stories. I also worked general assignment shifts where I reported a variety of daily news stories. To see all my stories, click on <a href="https://www.columbiamissourian.com/users/profile/qbscarlie/" target="_blank">my staff profile page here</a>. Here are a few of the graphics I made there:</p>
+    <br>
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.columbiamissourian.com/news/state_news/where-they-stand-a-look-at-what-missouri-lawmakers-are/article_ff97982e-4333-11e8-9c23-8b862e5a7948.html" target="_blank"><img src="clipz/missourian3.png"></a>
+        <p class="cliptitle"><a href="https://www.columbiamissourian.com/news/state_news/where-they-stand-a-look-at-what-missouri-lawmakers-are/article_ff97982e-4333-11e8-9c23-8b862e5a7948.html" target="_blank">Where They Stand</a></p>
+        <p class="cliptext">I worked with the state government editor to direct a team of reporters who compiled a comprehensive list of lawmakers' stances on an issue, then I created the online presentation for it on our site using an <a href="https://github.com/nprapps/dailygraphics" target="_blank">NPR daily graphics</a> template and a Highcharts bar chart to summarize the stances.</p>
+      </div>
+
+      <div class="clip2">
+        <a href="https://public.tableau.com/profile/carlie.procell#!/vizhome/AverageseasonaltemperaturesinColumbiaMissouri/Dashboard1" target="_blank"><img src="clipz/missourian2.png"></a>
+        <p class="cliptitle"><a href="https://public.tableau.com/profile/carlie.procell#!/vizhome/AverageseasonaltemperaturesinColumbiaMissouri/Dashboard1" target="_blank">Temperature Interactive</a></p>
+        <p class="cliptext">I made an interactive line chart dashboard in Tableau to show average seasonal temperature changes since 2010 in Columbia, Missouri.</p>
+      </div>
+
+      <div class="clip3">
+        <a href="http://2016-election-map.s3-website.us-east-2.amazonaws.com/" target="_blank"><img src="clipz/missourian1.png"></a>
+        <p class="cliptitle"><a href="http://2016-election-map.s3-website.us-east-2.amazonaws.com/" target="_blank">2016 Election Map</a></p>
+        <p class="cliptext">For this map, I worked on a team to build a map of Missouri that displayed results from the U.S. presidential and senate races as they came in. I built the map with TopoJSON files and used D3 and Underscore.js to connect the data to it. (<a href="https://github.com/qbscarlie/2016-Election-Map" target="_blank">source code</a>)</p>
+      </div>
+    </div>
+
+    <h3>The Dallas Morning News</h3>
+    <p class="projtext">I spent the summer of 2017 as the data & interactives intern at The Dallas Morning News. While there, I helped develop a <a href="https://github.com/DallasMorningNews/restaurant-inspections-demo" target="_blank">Django app</a> from back-end to front-end that <a href="https://www.guidelive.com/food-and-drink/2018/04/27/search-restaurant-inspections-health-dallas-fort-worth-cities-cleanliness" target="_blank">tracked restaurant health inspections</a> across Dallas and Tarrant counties. I also made several interactive embeddables, which you can view all <a href="https://github.com/qbscarlie/DMN-Projects" target="_blank">here</a>. Below are some of them: </p>
+    <br>
+
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.dallasnews.com/arts-entertainment/2017/11/17/long-after-college-divine-nine-fraternities-and-sororities-are-a-lifeline-for-black-members/" target="_blank"><img src="clipz/dmn_divine.png"></a>
+        <p class="cliptitle"><a href="https://www.dallasnews.com/arts-entertainment/2017/11/17/long-after-college-divine-nine-fraternities-and-sororities-are-a-lifeline-for-black-members/" target="_blank">Divine Nine Embed</a></p>
+        <p class="cliptext">I made this interactive to show basic facts about Greek chapters, along with a picture and quote from each one. I used Handlebars along with the script to connect a Google sheet to an S3 bucket so that the reporter could update information as she acquired it. (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/divine-nine-embed" target="_blank">source code</a>)</a>.</p>
+      </div>
+
+      <div class="clip2">
+        <a href="http://interactives.dallasnews.com/embeds/2017/slider-template/" target="_blank"><img src="clipz/dmn_slider.png"></a>
+        <p class="cliptitle"><a href="http://interactives.dallasnews.com/embeds/2017/slider-template/" target="_blank">Slider Template</a></p>
+        <p class="cliptext">I made this template so that it would be easy for others on the Interactives team to make embeddable sliders for stories to introduce people/places/etc. in a story. This uses the same mechanics as the divine nine interactive to retrieve data from a Google sheet. (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/people-slider-template" target="_blank">source code</a>)</a>.</p>
+      </div>
+
+      <div class="clip3">
+        <a href="https://www.dallasnews.com/news/education/2017/07/11/high-school-flashback-can-you-name-this-summer-s-reading-assignments-from-just-the-books-plots/" target="_blank"><img src="clipz/dmn_book.png"></a>
+        <p class="cliptitle"><a href="https://www.dallasnews.com/news/education/2017/07/11/high-school-flashback-can-you-name-this-summer-s-reading-assignments-from-just-the-books-plots/" target="_blank">Book Slider</a></p>
+        <p class="cliptext"> I made this interactive for a story on summer reading books that high schools were assigning. I used a jQuery plugin to make a series of image sliders where the top image was a synopsis of the book and the image underneath revealed the book cover, title and author (which I made in Illustrator). (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/book-slider" target="_blank">source code</a>)</p>
+      </div>
+
+      <div class="clip4">
+        <a href="https://www.dallasnews.com/high-school-sports/2017/11/17/it-s-a-tremendous-problem-how-can-school-policies-state-laws-improve-to-prevent-hazing/" target="_blank"><img src="clipz/dmn_haze.png"></a>
+        <p class="cliptitle"><a href="https://www.dallasnews.com/high-school-sports/2017/11/17/it-s-a-tremendous-problem-how-can-school-policies-state-laws-improve-to-prevent-hazing/" target="_blank">Hazing Dashboard</a></p>
+        <p class="cliptext">I made this interactive to showcase results from a hazing survey. I wrote some Python to parse the survey results, then built a dynamic bar chart in D3 that's controlled by two drop down menus (and then I filter through the data using lodash.) (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/hazing-dashboard" target="_blank">source code</a>)</p>
+      </div>
+
+      <div class="clip5">
+        <a href="http://interactives.dallasnews.com/embeds/2017/skyline-map/" target="_blank"><img src="clipz/dmn_skyline.png"></a>
+        <p class="cliptitle"><a href="http://interactives.dallasnews.com/embeds/2017/skyline-map/" target="_blank">Skyline Map</a></p>
+        <p class="cliptext">I made several maps using Mapbox and a script that connects Google Sheets to an S3 bucket so that they can be updated by the author whenever needed. This one is a step through map of skyscrapers in Dallas over the decades with a tooltip. (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/maps/skyline-map" target="_blank">source code</a>)</a>.</p>
+      </div>
+
+      <div class="clip6">
+        <a href="http://interactives.dallasnews.com/embeds/2017/waterparks/" target="_blank"><img src="clipz/dmn_waterparks.png"></a>
+        <p class="cliptitle"><a href="http://interactives.dallasnews.com/embeds/2017/waterparks/" target="_blank">Waterparks Map</a></p>
+        <p class="cliptext">This is another map I made there that shows the locations of waterparks across the DFW area and details about them. (<a href="https://github.com/qbscarlie/DMN-Projects/tree/master/maps/waterparks-map" target="_blank">source code</a>)</a>.</p>
+      </div>
+    </div>
 
     <h3>The Maneater</h3>
+    <p class="projtext">While I was the online development editor at Mizzou's student newspaper, The Maneater, I spent most of my time doing backend development work to make the site run more smoothly and with more capabilities. But I also designed and developed many special sections. I highlighted some below: </p>
+    <br>
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.themaneater.com/special-sections/explaining-title-ix" target="_blank"><img src="clipz/maneater1.png"></a>
+        <p class="cliptitle"><a href="https://www.themaneater.com/special-sections/explaining-title-ix" target="_blank">Explaining Title IX</a></p>
+        <p class="cliptext">I worked alongside a reporter to make a Vox cards-esque interactive slider with Javascript to explain what Title IX is. This won an honorable mention for multimedia package from the Missouri College Media Association in April 2016. (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/Explaining%20Title%20IX" target="_blank">source code</a>)</p>
+      </div>
+
+      <div class="clip2">
+        <a href="https://www.themaneater.com/special-sections/leadership-culture" target="_blank"><img src="clipz/maneater2.png"></a>
+        <p class="cliptitle"><a href="https://www.themaneater.com/special-sections/leadership-culture" target="_blank">Leadership Culture</a></p>
+        <p class="cliptext">I designed <a href="https://github.com/qbscarlie/Maneater-Special-Sections/" target="_blank">several long form pieces</a> at The Maneater. One was this <a href="http://studentpress.org/acp/awards/2015msoy/" target="_blank">award-winning piece</a> on leadership culture at Mizzou. (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/Leadership%20Culture" target="_blank">source code</a>)</p>
+      </div>
+
+      <div class="clip3">
+        <a href="http://themaneater.com/special-sections/mu-fall-2015" target="_blank"><img src="clipz/maneater3.png"></a>
+        <p class="cliptitle"><a href="http://themaneater.com/special-sections/mu-fall-2015" target="_blank">A Historic Fall at MU</a></p>
+        <p class="cliptext">I designed an <a href="https://www.facebook.com/MissouriCollegeMedia/posts/1077272995668110" target="_blank">award-winning</a> interactive timeline of events leading up to the fall 2015 protests at Mizzou. The timeline received over 200,000 views within the month and was linked to by multiple national outlets <a href="https://www.nytimes.com/2015/11/10/us/university-of-missouri-system-president-resigns.html" target="_blank">including The New York Times</a>. This piece is also prominently featured on <a href="https://timeline.knightlab.com/" target="_blank">the Timeline JS website</a> as an example. (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/A%20Historic%20Fall" target="_blank">source code</a>)</p></p>
+      </div>
+    </div>
+
+    <h3>Other work</h3>
     <!-- <p class="projtext"></p> -->
-    <h5>Special sections (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/" target="_blank">full list</a>)</h5>
-    <p class="projtext">While I was the online development editor at Mizzou's student newspaper, The Maneater, I spent most of my time doing backend development work to make the site run more smoothly and with more capabilities. But I also designed and developed many special sections. I highlighted some below.</p>
-    <br />
-    <h5>Leadership Culture (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/Leadership%20Culture" target="_blank">source code</a>)</h5>
-    <p class="projtext">Most of the special sections I made were long form pieces. One example was <a href="https://www.themaneater.com/special-sections/leadership-culture" target="_blank">this piece</a> on leadership culture at Mizzou.</p>
-    <br />
-    <h5>A Historic Fall at MU (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/blob/master/A%20Historic%20Fall/mufall15.html" target="_blank">source code</a>)</h5>
-    <p class="projtext">I used Timeline JS to design an <a href="http://themaneater.com/special-sections/mu-fall-2015" target="_blank">interactive timeline</a> of events leading up to the fall 2015 protests at Mizzou. The timeline received over 200,000 views within the month and was linked to by multiple national outlets <a href="https://www.nytimes.com/2015/11/10/us/university-of-missouri-system-president-resigns.html" target="_blank">including The New York Times</a>. This piece also won first place in multimedia package at the Missouri College Media Association in April 2016 and is prominently featured on <a href="https://timeline.knightlab.com/" target="_blank">the Timeline JS website</a> as an example.</p>
-    <br />
-    <h5>Explaining Title IX (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/Explaining%20Title%20IX" target="_blank">source code</a>)</h5>
-    <p class="projtext">I worked alongside a reporter to make a Vox cards-esque <a href="http://www.themaneater.com/special-sections/explaining-title-ix/" target="_blank">interactive slider</a> to explain what Title IX is. This won an honorable mention for multimedia package from the Missouri College Media Association in April 2016.</p>
-    <br />
-    <h5>Mizzou in Review 2014-15 (<a href="https://github.com/qbscarlie/Maneater-Special-Sections/tree/master/Mizzou%20in%20Review" target="_blank">source code</a>)</h5>
-    <p class="projtext">I designed and developed <a href="http://www.themaneater.com/special-sections/mizzou-in-review-2014-15/" target="_blank">this page</a> to compile ‘Mizzou in Review’ content that the entire editorial board helped put together.</p>
+    <br>
+    <div class="clipgrid">
+      <div class="clip1">
+        <a href="https://www.ire.org/product/mapping-for-stories-a-data-journalism-guide" target="_blank"><img src="clipz/mapbook.jpg"></a>
+        <p class="cliptitle"><a href="https://www.ire.org/product/mapping-for-stories-a-data-journalism-guide" target="_blank">Mapping For Stories</a></p>
+        <p class="cliptext">Along with designing the cover for IRE's 2018 Mapping For Stories book, I also copy edited the text, tested the lessons in QGIS and researched mapping examples to add to the back.</p>
+      </div>
+
+      <div class="clip2">
+        <a href="https://github.com/jasminehl/alexaskills" target="_blank"><img src="clipz/rji.png"></a>
+        <p class="cliptitle"><a href="https://github.com/jasminehl/alexaskills" target="_blank">RJI Alexa Skill</a></p>
+        <p class="cliptext">I worked as the developer alongside two journalism students for an Alexa Skill for the Reynolds Journalism Institute. Our skill scrapes articles from their RSS feed based on tags said by the user. I wrote the skill itself in Node.js and implemented it with a Lambda function, and I wrote the <a href="https://github.com/qbscarlie/rji_scraper" target="_blank">scraper</a> in Python. The scraper stores the data in a DynamoDB table which updates via an additional Lambda function. I created a how-to guide on how to do the skill <a href="https://www.dropbox.com/s/4ps9nj1vcodelpf/HowToAlexa.pdf?dl=0" target="_blank">here</a> and our demo for the skill is <a href="https://docs.google.com/presentation/d/1P06OkIJu8TgT_eOqFr9oiccnXrv-61FgnMagxZpp-mA/edit?usp=sharing" target="_blank">here</a>.</p>
+      </div>
+
+      <div class="clip3">
+        <a href="https://issuu.com/qbscarlie/docs/epicforissuu"><img src="clipz/epic.png"></a>
+        <p class="cliptitle"><a href="https://issuu.com/qbscarlie/docs/epicforissuu" target="_blank">EPIC Literary Magazine</a></p>
+        <p class="cliptext">I designed Mizzou's 2016 student literary journal in Adobe InDesign.</p>
+      </div>
+    </div>
+
     <br /><br />
-    <!-- <h3>Miscellaneous</h3>
-    <h5>The growth of elementary schools in Columbia (<a href="https://github.com/qbscarlie/News-Apps-Final-Project" target="_blank">source code</a>)</h5>
-    <p class="projtext">I made this <a href="http://qbscarlie.github.io/News-Apps-Final-Project/" target="_blank">line chart</a> as my final project in my spring 2016 Introduction to News Apps class. I utilized code from bl.ocks.org and data from the Missouri Department of Elementary and Secondary Education to build this line chart.</p> -->
   </div>
 </body>
 </html>
